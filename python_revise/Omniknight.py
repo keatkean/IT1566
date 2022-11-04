@@ -1,4 +1,3 @@
-import Hero
 import Hero as h
 import Hero
 from Hero import *
@@ -59,5 +58,5 @@ class Omniknight(Hero):  # Inheritance 'Is-A' relationship e.g. Omniknight is a 
     # Polymorphism - Method Overriding.
     # Override the parent class method __str__
     def __str__(self):
-        return super().__str__() + "Guardian Angel: {}".format(self.get_guardian_angel())
+        return super().__str__() + "Guardian Angel: {}\n".format(self.get_guardian_angel())
         # return Hero.__str__(self) + "\nGuardian Angel: {}".format(self.get_guardian_angel())
