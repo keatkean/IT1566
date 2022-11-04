@@ -19,7 +19,7 @@
     Mana: 200
     Ultimate Skill: Freezing Field
     Freezing Field: True
-9. In the TestProgram.py, create a CrystalMaiden instance with these values.
+9. In the TestProgram.py, create a CrystalMaiden instance with these values. (you need to import CrystalMaiden class)
     name= Crystal Maiden,
     attack_type = Ranged,
     damage_type = Magical,
